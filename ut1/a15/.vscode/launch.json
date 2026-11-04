@@ -2,18 +2,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Depurar Python: Archivo Actual",
+            "name": "Python: Archivo actual",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Depurar Go: Archivo Actual",
+            "name": "Go: Launch Package",
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${file}"
+            "program": "${fileDirname}"
         }
     ]
 }
